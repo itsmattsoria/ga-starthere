@@ -1,4 +1,4 @@
-###Start Here.###
+###Start Here.
 
 A simplified version of my [Start Here](https://github.com/poopsplat/starthere) boilerplate.
 ---
