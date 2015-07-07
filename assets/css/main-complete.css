@@ -65,11 +65,9 @@ body:hover .visually-hidden a, body:hover .visually-hidden input, body:hover .vi
 }
 
 .wrap {
-  width: 100%;
   margin: 0 auto;
   padding: 0 10px;
   max-width: 800px;
-  position: relative;
 }
 
 /* Enter your custom site-based styles here: */
