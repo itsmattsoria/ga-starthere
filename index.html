@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Important for responsive sites: https://css-tricks.com/snippets/html/responsive-meta-tag/ -->
     <meta http-equiv="X-UA-Compatible" content="IE=Edge"><!-- http://stackoverflow.com/questions/6771258/whats-the-difference-if-meta-http-equiv-x-ua-compatible-content-ie-edge-e -->
 
-    <title>Start Here.</title>
+    <title>Hurley's First Website</title>
 
     <meta name="description" content=""><!-- What search engines display in search indexes -->
     <meta property="og:title" content="" /><!-- Open Graph protocol for facebook sharing: https://developers.facebook.com/docs/sharing/best-practices -->
@@ -15,10 +15,10 @@
     <meta property="og:url" content="" />
     <meta property="og:description" content="" />
 
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500,900,400italic,500italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400italic,400,900,700,700italic' rel='stylesheet' type='text/css'>
     
     <link rel="stylesheet" href="assets/css/normalize.css"><!-- CSS reset: http://necolas.github.io/normalize.css/ -->
-    <link rel="stylesheet" href="assets/css/main.css"><!-- Our site's stylesheet -->
+    <link rel="stylesheet" href="assets/css/main-complete.css"><!-- Our site's stylesheet -->
 
     <link type="text/plain" rel="author" href="humans.txt">
 
@@ -34,27 +34,46 @@
     <script src="assets/js/libs/modernizr.custom.js"></script>
   </head>
   <body>
-    <header class="site-header" role="banner">
-      <div class="wrap">
-        <h1>My First Website</h1>
-        <nav class="site-nav" role="navigation"> 
-          <a href="about.html">About</a>
-          <a href="contact.html">Contact</a>
-        </nav>
-      </div>
-    </header>
-    <main class="site-main" role="main">
-      <div class="wrap">
-        <p>A front-end template used on projects by <a href="https://github.com/poopsplat">@poopsplat</a>.</p>
-        <p>Start here, and carry on.</p>
-        <p class="special ">This is my third paragraph!</p>
-      </div>
-    </main>
+
+    <div class="site-wrap">
+      <header class="site-header" role="banner">
+        <div class="wrap">
+          <h1>Hurley's First Website</h1>
+          <nav class="site-nav" role="navigation">
+            <a href="/">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/contact.html">Contact</a>
+          </nav>
+        </div>
+      </header>
+      <main class="site-main" role="main">
+        <div class="wrap">
+          <img class="portrait" src="assets/images/hurley.png" alt="Hugo 'Hurley' Reyes">
+          <section>
+            <h1>Bio</h1>
+            <p>Hugo Reyes, more commonly known by his nickname "<strong>Hurley</strong>", was one of the middle section survivors of the crash of <a href="http://lostpedia.wikia.com/wiki/Oceanic_Flight_815">Oceanic Flight 815</a>. Hurley's father disappeared when he was ten and did not return until Hurley was 27. During his father's absence, Hurley developed an eating disorder, and later a traumatic accident landed him in a mental asylum where he started seeing an imaginary person. He was overly-conscious about his sanity and weight afterwards. While employed at Mr. Cluck's, Hurley won the lottery by playing the numbers given to him by Lenny. Because of a series of unfortunate incidents following his win, he believed himself to be plagued with bad luck because of the numbers and searched for an answer to the curse.</p>
+            <p>On the Island, Hurley was typically happy-go-lucky and kept the spirits of his fellow survivors up. He was also a voice of reason in the group and used his common sense to solve difficult situations. Eventually, Hurley found that he could not escape the Numbers, and after seeing them on the side of the Hatch, believed that opening it would be a bad idea. He struggled with being given the task of dividing up the food in the Hatch and began seeing his old imaginary friend on the Island. Later, he was captured by the <em>Others</em>, along with Jack, Kate, and Sawyer as a part of Michael's betrayal, but was released to go back and warn the other survivors not to come for them. Back at camp, Hurley found an old DHARMA van which he was able to get running again with the help of Charlie, Sawyer, and Jin, restoring his and the rest of the survivors' optimism, and creating a belief in him of self-created luck. He later used the van as a crucial part in the mission to rescue Sayid, Jin, and Bernard.</p>
+          </section>
+          <section>
+            <h1>Quick Facts:</h1>
+            <ul>
+              <li>Born December 29, 1978</li>
+              <li>Owner of Mr. Cluck's Chicken Shack franchise</li>
+              <li>Son of David and Carmen Reyes</li>
+              <li>Estimated worth of $156 million</li>
+              <li>The band Weezer named an album after him ('Hurley')</li>
+            </ul>
+          </section>
+        </div>
+      </main>
+    </div><!-- .site-wrap -->
+
     <footer class="site-footer" role="contentinfo">
       <div class="wrap">
-        
+        <p>© 2015 — Hugo Reyes</p>
       </div>
     </footer>
+
     <script src="assets/js/libs/jquery-1.11.1.js"></script>
     <script src="assets/js/main.js"></script>
     <script type="text/javascript">// Google Analytics

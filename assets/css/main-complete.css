@@ -7,18 +7,21 @@ html {
 }
 
 body {
+  padding: 10px;
+  color: #140000;
   font-size: 16px;
   background: #fff;
-  font-family: 'Helvetica', Arial, sans-serif;
+  font-family: 'Merriweather', serif;
 }
 
 p {
   font-size: 1em;
-  line-height: 1.25em;
+  line-height: 1.5em;
 }
 
 a {
-  color: inherit;
+  color: #5C7493;
+  font-weight: 700;
 }
 
 img {
@@ -71,11 +74,72 @@ body:hover .visually-hidden a, body:hover .visually-hidden input, body:hover .vi
 
 /* Enter your custom site-based styles here: */
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+}
 
+.site-wrap {
+  margin: 0 auto;
+  background: #eee;
+  max-width: 800px;
+  padding: 0 40px 40px;
+}
+
+header {
+  padding: 40px;
+  text-align: center;
+}
+header h1 {
+  margin-top: 0;
+}
+
+nav a {
+  margin: 0 10px;
+  font-weight: 700;
+  display: inline-block;
+  text-decoration: none;
+  transition: border .2s ease-out;
+  border-bottom: 1px solid rgba(0,0,0,0);
+}
+nav a:hover {
+  border-bottom: 1px solid #5C7493;
+}
+
+.portrait {
+  display: block;
+  max-width: 300px;
+  border-radius: 50%;
+  margin: 0 auto 40px;
+  border: 6px solid #140000;
+}
+
+section {
+  padding-bottom: 20px;
+}
+section h1 {
+  margin-bottom: 1em;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+footer {
+  padding: 20px;
+  font-size: 10px;
+  text-align: center;
+}
 
 /* END CUSTOM STYLES */
 
 /* Yay responsive design! Do stuff for different viewport sizes! */
 @media screen and (max-width: 600px) {
+  .site-wrap {
+    padding: 0 10px 20px;
+  }
 
+  header {
+    padding: 20px;
+  }
+
+  .portrait {
+    max-width: 200px;
+  }
 }
