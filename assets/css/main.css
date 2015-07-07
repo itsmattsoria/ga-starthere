@@ -8,11 +8,21 @@ html {
 
 body {
   font-size: 16px;
+  background: #ccc;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav a {
+  color: blue;
 }
 
 p {
   font-size: 1em;
   line-height: 1.25em;
+}
+
+.special {
+  background: blue;
 }
 
 a {
@@ -68,12 +78,10 @@ body:hover .visually-hidden a, body:hover .visually-hidden input, body:hover .vi
   position: relative;
   *zoom: 1;
 }
-.wrap:before, .wrap:after {
-  content: "\0020";
-  display: block;
-  height: 0;
-  overflow: hidden;
-}
-.wrap:after {
-  clear: both;
+
+/* Yay responsive design! Do stuff for different viewport sizes! */
+@media screen and (min-width: 600px) {
+  body {
+    background: #f00;
+  }
 }

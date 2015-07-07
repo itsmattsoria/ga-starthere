@@ -2,11 +2,18 @@
 var Main = (function ($) {
 	return {
 		myFunction: function () {
-      console.log('Testing, testing...is this thing on?');
+
+			function displayMessage() {
+	      var message = "Don't freak out, but this is javascript!";
+
+	      alert(message);
+	    }
+
+      setTimeout(displayMessage, 500);
 		},
 		initMain: function () {
 			$(document).ready(function () {
-				Main.myFunction();
+				// Main.myFunction();
 			})
 		}
 	};
